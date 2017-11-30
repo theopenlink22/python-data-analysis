@@ -23,3 +23,5 @@ robux = [user["profile"]["Robux"] for user in user_data] # This converts the res
 figure, axis = plt.subplots(1, 1) # This create a figure with 1 axis
 axis.hist(robux, bins=10) # This draws a histogream with 10 bins
 figure.savefig('robux_histogram.svg')
+
+print ("success")
